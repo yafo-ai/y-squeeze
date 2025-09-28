@@ -85,12 +85,13 @@ Y-Squeeze 主要是一个研究模型内部状态的框架，这也是我们经�
 
 ## 相关资料：
 
-[Y-Agent Studio官方介绍](http://112.126.109.80/docs)
+[Y-Agent Studio官方介绍](http://www.y-agent.cn/docs)
 
-[Y-Agent 使用说明](http://112.126.109.80/docs/y-agent/quick_start)
+[Y-Agent 使用说明](http://www.y-agent.cn/docs/y-agent/quick_start)
 
-[Y-Squeeze 使用说明](http://112.126.109.80/docs/y-squeeze/introduction)
+[Y-Squeeze 使用说明](http://www.y-agent.cn/docs/y-squeeze/introduction)
 
-[Y-Trainer 介绍](http://112.126.109.80/docs/y-trainer/introduction)
+[Y-Trainer 介绍](http://www.y-agent.cn/docs/y-trainer/introduction)
 
-[Y-Agent Studio官网](http://112.126.109.80)
+[Y-Agent Studio官网](http://www.y-agent.cn)
+
