@@ -32,9 +32,12 @@ def clusters_text(data:list[str] = Body(description="需要聚类的文本列表
     for text in data:
         if is_attent:
             feature_text=extract_feature(text,5,score_threshold,model,tokenizer)
-            datas.append(get_vllm_embedding(feature_text))
+            if feature_text=="":
+                raise ValueError("注意力分数过大，没有提取到相关特征！")
+
+            datas.append(get_vllm_embedding(feature_text,model,tokenizer))
         else:
-            datas.append(get_vllm_embedding(text))
+            datas.append(get_vllm_embedding(text,model,tokenizer))
 
     clusters=y_cluster(datas)
 
